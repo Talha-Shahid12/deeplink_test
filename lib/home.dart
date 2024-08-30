@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
             onPressed: () {
               context.go('/profile');
             },
-            child: Text("Move to profile screen")),
+            child: Text("go to profile screen")),
       ),
     );
   }
